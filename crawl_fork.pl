@@ -36,11 +36,11 @@ my $whatSport;
 my $success;
 my $tx;
 
-print "Enter the base URL without the number at the end: ";
+print "Enter the base URL without the number at the end (ex. http://pregame.com/pregamepros/picks/archive.aspx?id=): ";
 my $baseurl = <STDIN>;
 chomp($baseurl);
 
-print "Enter the number that follows the equal sign: ";
+print "Enter the most recent pick_id number that follows the equal sign (ex. 192708): ";
 my $starting_number = <STDIN>;
 chomp($starting_number);
 
